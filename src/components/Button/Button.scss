@@ -1,0 +1,13 @@
+@import '../../variables';
+
+.button {
+  color: $button-text-color;
+  background-color: $highlight-color;
+  border-width: 0;
+  outline: none;
+  border-radius: 3px;
+  height: auto;
+  width: auto;
+  padding: 7px;
+  font-weight: 500;
+}
