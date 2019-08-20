@@ -7,7 +7,7 @@ interface Back {
   onClick: Function
 }
 
-export const Back = ({ width, height, className = '', onClick }: Back) => (
+export const Back: React.FC<Back> = ({ width, height, className = '', onClick }) => (
   <svg viewBox="0 0 100 100" width={width} height={height} onClick={() => onClick()} className={className}>
     <defs>
       <clipPath id="_clipPath_H57vw0ItnefVW9VsGaQPRk3UqDZ13WvD">

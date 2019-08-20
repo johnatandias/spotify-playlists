@@ -4,6 +4,7 @@ import { Logo } from '../../components/Logo/Logo';
 import { Button } from '../../components/Button/Button';
 import { Loading } from '../../components/Loading/Loading';
 import { SpotifyService } from '../../services/spotify';
+import { Link } from '../../components/Link/Link';
 import './Login.scss';
 
 export const Login = ({ history }: RouteComponentProps) => {
@@ -36,9 +37,9 @@ export const Login = ({ history }: RouteComponentProps) => {
             Milhões de músicas à sua escolha. E nem precisa de cartão de crédito.
           </span>
 
-          <a href={SpotifyService.getAuthURI()}>
+          <Link href={SpotifyService.getAuthURI()}>
             <Button label="Conectar com Spotify" className="button" />
-          </a>
+          </Link>
         </div>
 
         <Logo height={500} width={500} opacity={0.3} />
