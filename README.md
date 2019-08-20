@@ -1,5 +1,7 @@
 # Spotify Playlist
 
+[![CircleCI](https://circleci.com/gh/johnatandias/spotify-playlists/tree/master.svg?style=svg)](https://circleci.com/gh/johnatandias/spotify-playlists/tree/master)
+
 [Live Preview](https://playlist-spotify.herokuapp.com)
 
 A simple application to show a user's playlists on spotify.
